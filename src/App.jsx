@@ -1,12 +1,13 @@
 import React from 'react'
-import Counter from './Feautres/Counter/Counter'
-import Dispatch from './Feautres/Counter/Dispatch'
+import ToDoList from './Components/ToDoList/ToDoList'
+import "bootstrap/dist/css/bootstrap.min.css"
+import './assets/Style/Style.scss'
 
 function App() {
   return (
-    <div>
-      <Counter/>
-      <Dispatch/>
+    <div className='container'>
+ <h1 className='text-center'>To Do List</h1>     
+      <ToDoList/>
     </div>
   )
 }
